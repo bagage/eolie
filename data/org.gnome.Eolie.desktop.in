@@ -4,7 +4,7 @@ GenericName=Web browser
 Comment=Web browser
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=org.gnome.Eolie
-Exec=eolie %U
+Exec=env GTK_THEME=:light eolie %U
 Terminal=false
 Type=Application
 Categories=Network;GNOME;GTK;WebBrowser;
@@ -14,4 +14,4 @@ Actions=Private
 
 [Desktop Action Private]
 Name=New private page
-Exec=eolie -p
+Exec=env GTK_THEME=:light eolie -p
